@@ -13,7 +13,6 @@ function App() {
     gap: '16px',
     padding: '16px',
   };
-
   return (
     <div style={gridStyle}>
       {cards.map((_, index) => (
